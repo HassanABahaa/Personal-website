@@ -228,9 +228,9 @@ body::before {
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
 .hero-h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 800;
-  font-size: clamp(42px, 7vw, 80px);
+  font-size: calc(clamp(42px, 7vw, 80px) - 5px);
   line-height: 1.0;
   letter-spacing: -2px;
   color: var(--text);
@@ -729,7 +729,7 @@ footer a { color: var(--accent); text-decoration: none; }
   .hero-stats  { gap: 24px; }
   .cta-block   { padding: 36px 24px; }
   .timeline    { padding-left: 20px; }
-  .hero-h1     { font-size: clamp(38px, 12vw, 60px); }
+  .hero-h1     { font-size: calc(clamp(38px, 12vw, 60px) - 5px); }
 }
 
 /* Updated portfolio content */
@@ -744,3 +744,10 @@ footer a { color: var(--accent); text-decoration: none; }
 .education-card { height: 100%; padding: 24px; }
 .education-card .info-card-title { margin: 12px 0; font-size: 17px; line-height: 1.5; }
 .education-card .info-card-date { margin: 0; line-height: 1.6; }
+
+/* Keep project labels clear of the decorative card number. */
+.project-card .project-badge {
+  align-self: flex-start;
+  max-width: calc(100% - 70px);
+  flex-wrap: wrap;
+}
