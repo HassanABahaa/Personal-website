@@ -755,7 +755,7 @@ footer a { color: var(--accent); text-decoration: none; }
 /* Slightly widen the name without increasing its height. */
 @media (min-width: 992px) {
   .hero-h1 {
-    transform: scaleX(1.12);
+    scale: 1.12 1;
     transform-origin: left center;
   }
 }
