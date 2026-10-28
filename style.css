@@ -3,7 +3,7 @@
    style.css
 ══════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Grotesk:wght@700&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 /* ── CSS VARIABLES  -  DARK (default) ── */
 :root {
@@ -228,8 +228,8 @@ body::before {
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
 .hero-h1 {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
   font-size: calc(clamp(42px, 7vw, 80px) - 5px);
   line-height: 1.0;
   letter-spacing: -2px;
