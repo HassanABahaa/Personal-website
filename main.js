@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════
-   Hassan Ahmed Bahaa — Portfolio Scripts
+   Hassan Ahmed Bahaa  -  Portfolio Scripts
    js/main.js
 ══════════════════════════════════════════ */
 
@@ -132,9 +132,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // ══════════════════
   const roles = [
     'Backend Developer',
-    'Node.js Engineer',
-    'API Architect',
-    'TypeScript Dev',
+    'Node.js Developer',
+    'API Developer',
+    'TypeScript Developer',
   ];
   const typedEl = document.getElementById('typedRole');
   if (typedEl) {

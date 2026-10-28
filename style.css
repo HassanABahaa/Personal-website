@@ -1,11 +1,11 @@
 /* ══════════════════════════════════════════
-   Hassan Ahmed Bahaa — Portfolio Stylesheet
+   Hassan Ahmed Bahaa  -  Portfolio Stylesheet
    style.css
 ══════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
-/* ── CSS VARIABLES — DARK (default) ── */
+/* ── CSS VARIABLES  -  DARK (default) ── */
 :root {
   --bg:        #080c14;
   --bg2:       #0d1220;
@@ -22,7 +22,7 @@
   --code-hdr:  #111827;
 }
 
-/* ── CSS VARIABLES — LIGHT ── */
+/* ── CSS VARIABLES  -  LIGHT ── */
 [data-theme="light"] {
   --bg:        #f0f4f8;
   --bg2:       #ffffff;
@@ -155,7 +155,7 @@ body::before {
 .mobile-menu.open { display: flex; }
 .mobile-menu .nav-link-custom { font-size: 14px; padding: 10px 14px; }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
   .desktop-nav { display: none !important; }
   .hamburger   { display: block; }
 }
@@ -275,7 +275,7 @@ body::before {
 .stat-num span { color: var(--accent); }
 .stat-label { font-size: 12px; color: var(--muted); margin-top: 4px; font-family: 'DM Mono', monospace; }
 
-/* Hero visual – code card */
+/* Hero visual  -  code card */
 .hero-visual { animation: fadeUp .6s .2s ease both; }
 
 .code-card {
@@ -731,3 +731,16 @@ footer a { color: var(--accent); text-decoration: none; }
   .timeline    { padding-left: 20px; }
   .hero-h1     { font-size: clamp(38px, 12vw, 60px); }
 }
+
+/* Updated portfolio content */
+.section-intro { color: var(--muted); font-size: 14px; line-height: 1.8; }
+.project-card { display: flex; flex-direction: column; }
+.project-card .project-desc { margin-bottom: 14px; }
+.project-card .project-desc strong { color: var(--text); font-weight: 600; }
+.project-note { color: var(--muted); font-size: 12px; line-height: 1.7; margin-bottom: 16px; }
+.project-technologies { margin-top: auto; padding-top: 8px; }
+.project-actions { display: flex; flex-wrap: wrap; gap: 0 22px; }
+#education { background: var(--bg2); }
+.education-card { height: 100%; padding: 24px; }
+.education-card .info-card-title { margin: 12px 0; font-size: 17px; line-height: 1.5; }
+.education-card .info-card-date { margin: 0; line-height: 1.6; }
