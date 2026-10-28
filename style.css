@@ -230,8 +230,7 @@ body::before {
 .hero-h1 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: clamp(30px, 3.6vw, 56px);
-  white-space: nowrap;
+  font-size: clamp(42px, 7vw, 80px);
   line-height: 1.0;
   letter-spacing: -2px;
   color: var(--text);
@@ -730,7 +729,7 @@ footer a { color: var(--accent); text-decoration: none; }
   .hero-stats  { gap: 24px; }
   .cta-block   { padding: 36px 24px; }
   .timeline    { padding-left: 20px; }
-  .hero-h1     { font-size: clamp(24px, 7.3vw, 44px); }
+  .hero-h1     { font-size: clamp(38px, 12vw, 60px); }
 }
 
 /* Updated portfolio content */
@@ -753,4 +752,10 @@ footer a { color: var(--accent); text-decoration: none; }
   flex-wrap: wrap;
 }
 
-
+/* Slightly widen the name without increasing its height. */
+@media (min-width: 992px) {
+  .hero-h1 {
+    scale: 1.12 1;
+    transform-origin: left center;
+  }
+}
