@@ -3,7 +3,7 @@
    style.css
 ══════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Grotesk:wght@700&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 /* ── CSS VARIABLES  -  DARK (default) ── */
 :root {
@@ -228,9 +228,9 @@ body::before {
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
 .hero-h1 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  font-size: calc(clamp(42px, 7vw, 80px) - 5px);
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(42px, 7vw, 80px);
   line-height: 1.0;
   letter-spacing: -2px;
   color: var(--text);
@@ -729,7 +729,7 @@ footer a { color: var(--accent); text-decoration: none; }
   .hero-stats  { gap: 24px; }
   .cta-block   { padding: 36px 24px; }
   .timeline    { padding-left: 20px; }
-  .hero-h1     { font-size: calc(clamp(38px, 12vw, 60px) - 5px); }
+  .hero-h1     { font-size: clamp(38px, 12vw, 60px); }
 }
 
 /* Updated portfolio content */
