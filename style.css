@@ -230,7 +230,7 @@ body::before {
 .hero-h1 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: clamp(80px, 10.5vw, 140px);
+  font-size: clamp(42px, 7vw, 80px);
   line-height: 1.0;
   letter-spacing: -2px;
   color: var(--text);
@@ -750,4 +750,12 @@ footer a { color: var(--accent); text-decoration: none; }
   align-self: flex-start;
   max-width: calc(100% - 70px);
   flex-wrap: wrap;
+}
+
+/* Slightly widen the name without increasing its height. */
+@media (min-width: 992px) {
+  .hero-h1 {
+    transform: scaleX(1.12);
+    transform-origin: left center;
+  }
 }
