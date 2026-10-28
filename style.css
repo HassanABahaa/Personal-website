@@ -228,8 +228,8 @@ body::before {
 @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.3} }
 
 .hero-h1 {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
   font-size: clamp(42px, 7vw, 80px);
   line-height: 1.0;
   letter-spacing: -2px;
@@ -752,10 +752,4 @@ footer a { color: var(--accent); text-decoration: none; }
   flex-wrap: wrap;
 }
 
-/* Slightly widen the name without increasing its height. */
-@media (min-width: 992px) {
-  .hero-h1 {
-    scale: 1.12 1;
-    transform-origin: left center;
-  }
-}
+
