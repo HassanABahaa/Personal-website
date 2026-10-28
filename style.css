@@ -230,7 +230,7 @@ body::before {
 .hero-h1 {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: clamp(42px, 7vw, 80px);
+  font-size: clamp(80px, 10.5vw, 140px);
   line-height: 1.0;
   letter-spacing: -2px;
   color: var(--text);
